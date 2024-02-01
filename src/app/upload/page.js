@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 const cloudName = "drnrpmg88";
 
 async function uploadToCloudinary(imageFile) {
-  const cloudinaryUrl = `https://api.cloudinary.com/v1_1/${cloudName}/image/upload`; // Replace 'your_cloud_name' with your Cloudinary cloud name
+  const cloudinaryUrl = `https://api.cloudinary.com/v1_1/${cloudName}/video/upload`; // Replace 'your_cloud_name' with your Cloudinary cloud name
   const formData = new FormData();
   formData.append("file", imageFile);
   formData.append("upload_preset", "ork1ys2n"); // Replace 'your_upload_preset' with your Cloudinary upload preset
